@@ -13,15 +13,19 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal"
-      android:src="@drawable/dice_1"/>
+      android:src="@drawable/empty_dice"
+      tools:src="@drawable/dice_1"
+      tools:ignore="ImageContrastCheck"
+      android:contentDescription="TODO" />
 
-    <Button
-        android:id="@+id/roll_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Roll"
-        android:textSize="30sp" />
+  <Button
+      android:id="@+id/roll_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="Roll"
+      android:textSize="30sp"
+      app:backgroundTint="#FF5722" />
 
 
 </LinearLayout>
